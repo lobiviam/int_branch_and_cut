@@ -1,9 +1,9 @@
-import time
-import threading
-from contextlib import contextmanager
 import thread
+import threading
+import time
+from contextlib import contextmanager
+
 import networkx as nx
-import copy
 
 
 class TimeoutException(Exception):
